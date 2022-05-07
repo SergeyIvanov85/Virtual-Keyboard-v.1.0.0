@@ -63,7 +63,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Наш заголовок страницы',
+      title: 'Keyboard by Sergey Ivanov',
     }),
   ],
 };

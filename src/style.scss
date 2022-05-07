@@ -59,8 +59,7 @@ p{
     text-align: center;
     align-items: flex-start;
     cursor: default;
-    background-color: #ffffff;
-    box-sizing: border-box;
+    background-color: #dfd7d7;
     margin: 0em;
     font: 400 16px Arial;
     padding: 16px 12px;
@@ -68,7 +67,7 @@ p{
     border-image: initial;
     border-radius: 7px;
     position: relative;
-    // box-shadow: 0.3rem 0.4rem 0.3rem rgba(60, 60, 60, 0.09), -0.4rem -0.8rem 1rem rgba(239, 239, 239, 0.8), inset -0.9rem -0.4rem 0.8rem rgba(255, 255, 255, 0.9), inset 0.7rem 0.4rem 0.3rem rgba(0, 0, 0, 0.09);
+    box-shadow: 0.3rem 0.4rem 0.3rem rgba(60, 60, 60, 0.09), -0.4rem -0.8rem 1rem rgba(239, 239, 239, 0.8), inset -0.9rem -0.4rem 0.8rem rgba(255, 255, 255, 0.9), inset 0.7rem 0.4rem 0.3rem rgba(0, 0, 0, 0.09);
 
     .button-item {
       position: absolute;

@@ -59,7 +59,8 @@ export default class App {
       },
       false,
     );
-    document.addEventListener('click',
+    document.addEventListener(
+      'click',
       (e) => {
         const code = [...e.target.classList][1];
         if (keyboard[code] && keyboard[code].dictionary) {
@@ -73,7 +74,9 @@ export default class App {
           inputTag.selectionStart -= 1;
           inputTag.selectionEnd -= 1;
         }
-      }, false);
+      },
+      false,
+    );
     document.addEventListener(
       'keyup',
       (key) => {
